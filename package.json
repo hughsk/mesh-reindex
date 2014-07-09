@@ -1,0 +1,40 @@
+{
+  "name": "mesh-reindex",
+  "version": "1.0.0",
+  "description": "Convert a flat array into a simplicial-complex-style indexed mesh, without optimisation.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy example.js --open"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "bunny": "^1.0.1",
+    "mesh-viewer": "^1.0.0",
+    "unindex-mesh": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/mesh-reindex.git"
+  },
+  "keywords": [
+    "mesh",
+    "reindex",
+    "3d",
+    "gl",
+    "graph",
+    "index",
+    "simplicial",
+    "complex"
+  ],
+  "homepage": "https://github.com/hughsk/mesh-reindex",
+  "bugs": {
+    "url": "https://github.com/hughsk/mesh-reindex/issues"
+  }
+}
